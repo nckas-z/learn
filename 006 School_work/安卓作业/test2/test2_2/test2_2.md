@@ -1,10 +1,10 @@
 ## 任务一 首个Kotlin应用
- ![683](image/Pasted%20image%2020260512170245.png)
-
+ 
+![](image/Pasted%20image%2020260516203815.png)
 
 ## 任务而 实践Compose布局
 
-![](image/Pasted%20image%2020260512172712.png)
+![](image/Pasted%20image%2020260516203830.png)
 
 ```
 package com.example.basicscodelab  
