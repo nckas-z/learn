@@ -1,8 +1,8 @@
-1. 创建 首个Kotlin应用
+## 任务一 首个Kotlin应用
  ![683](image/Pasted%20image%2020260512170245.png)
 
 
-2. 实践Compose布局
+## 任务而 实践Compose布局
 
 ![](image/Pasted%20image%2020260512172712.png)
 
