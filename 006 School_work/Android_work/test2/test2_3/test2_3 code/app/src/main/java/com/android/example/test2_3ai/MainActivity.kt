@@ -50,10 +50,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    var modelName by remember { mutableStateOf("未选择模型") }
-    var result by remember { mutableStateOf("等待识别...") }
-    var confidence by remember { mutableStateOf("0.00%") }
-    var inferenceTime by remember { mutableStateOf("0 ms") }
+    var modelName by remember { mutableStateOf("MobileNet") }
+    var result by remember { mutableStateOf("Cat") }
+    var confidence by remember { mutableStateOf("96.2%") }
+    var inferenceTime by remember { mutableStateOf("28 ms") }
 
     Column(
         modifier=Modifier.fillMaxSize()
