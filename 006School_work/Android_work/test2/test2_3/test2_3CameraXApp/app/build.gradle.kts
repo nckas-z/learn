@@ -5,15 +5,13 @@ plugins {
 
 android {
     namespace = "com.android.example.cameraxapp"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    // 修复 1：正确的 compileSdk 写法
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.android.example.cameraxapp"
         minSdk = 24
+        // 修复 2：标准 targetSdk
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -36,6 +34,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
 }
 
@@ -55,4 +54,13 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // 修复 3：使用最新稳定版 CameraX（兼容 Compose）
+    val camerax_version = "1.4.0"
+    implementation("androidx.camera:camera-core:$camerax_version")
+    implementation("androidx.camera:camera-camera2:$camerax_version")
+    implementation("androidx.camera:camera-lifecycle:$camerax_version")
+    implementation("androidx.camera:camera-video:$camerax_version")
+    implementation("androidx.camera:camera-view:$camerax_version")
+    implementation("androidx.camera:camera-extensions:$camerax_version")
 }
