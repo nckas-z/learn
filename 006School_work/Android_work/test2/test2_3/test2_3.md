@@ -69,3 +69,9 @@ dependencies {
     implementation("androidx.camera:camera-extensions:$camerax_version")  
 }
 ```
+
+
+![697](image/Pasted%20image%2020260518173509.png)
+
+
+
