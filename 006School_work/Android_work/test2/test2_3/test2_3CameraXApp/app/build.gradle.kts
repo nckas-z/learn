@@ -33,7 +33,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
     buildFeatures {
-        compose = true
+
         viewBinding = true
     }
 }
@@ -63,4 +63,6 @@ dependencies {
     implementation("androidx.camera:camera-video:$camerax_version")
     implementation("androidx.camera:camera-view:$camerax_version")
     implementation("androidx.camera:camera-extensions:$camerax_version")
+
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
