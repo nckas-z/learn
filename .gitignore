@@ -1,2 +1,8 @@
 .obsidian
 .trash
+# VS 缓存、配置
+.vs/
+*.suo
+*.user
+bin/
+obj/
