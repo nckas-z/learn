@@ -23,3 +23,6 @@ date: 2026-05-20
 
 ## matplotlib进行绘图
 
+![](image/Pasted%20image%2020260520101605.png)
+![](image/Pasted%20image%2020260520101708.png)![305](image/Pasted%20image%2020260520101734.png)
+![](image/Pasted%20image%2020260520101754.png)
