@@ -13,3 +13,13 @@ date: 2026-05-20
 
 ## 数据分析
 
+![](image/Pasted%20image%2020260520101352.png)![305](image/Pasted%20image%2020260520101403.png)
+![](image/Pasted%20image%2020260520101421.png)
+
+
+![](image/Pasted%20image%2020260520101431.png)
+
+
+
+## matplotlib进行绘图
+
