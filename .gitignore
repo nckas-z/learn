@@ -1,8 +1,21 @@
-.obsidian
-.trash
-# VS 缓存、配置
+
+# VS2026 垃圾文件，绝不提交
 .vs/
 *.suo
 *.user
 bin/
 obj/
+Debug/
+Release/
+*.log
+
+# Obsidian 界面缓存、布局，不影响笔记内容
+.obsidian
+.trash
+.obsidian/workspace
+.obsidian/cache
+.obsidian/trash/
+
+# 系统文件
+.DS_Store
+Thumbs.db
