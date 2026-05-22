@@ -12,4 +12,12 @@
       <UniqueIdentifier>{676ccf40-0d01-4e40-af88-bfb706159499}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\List.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SqList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
